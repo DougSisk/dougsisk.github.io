@@ -88,7 +88,7 @@ body {
 }
 
 h1, h2, h3 {
-    margin:0;
+    margin: 0;
 }
 
 h1 {
@@ -105,8 +105,16 @@ h2 {
 }
 
 h3 {
-    font-size: 1.3em;
-    margin-top: 1em;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 1.5em 0 0;
 }
 
 ul {
@@ -117,9 +125,9 @@ ul {
 }
 
 .where li {
-    margin: 15px 0 0;
-    height: 30px;
+    display: inline-block;
     line-height: 30px;
+    margin: 10px 0 0;
 }
 .where li span {
     display: none;
@@ -131,14 +139,17 @@ ul {
     background: #6d6d6d;
     background: rgba(109,109,109,.8);
     color: #fff;
-    display: inline;
-    float: left;
+    display: inline-block;
     text-decoration: none;
     font-size: 1.2em;
 }
 .where a:hover {
     background: #333;
     background: rgba(51,51,51,.8);
+}
+
+.where.small {
+    font-size: .8em;
 }
 
 .contact {
