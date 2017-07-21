@@ -69,7 +69,7 @@ html {
 body {
     background: #d3d3d3 url(../img/thebackground.jpg) center bottom no-repeat;
     background-size: cover;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 300;
     color: #3c3c3c;
