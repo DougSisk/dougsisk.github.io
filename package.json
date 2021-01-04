@@ -1,0 +1,9 @@
+{    
+    "dependencies": {
+        "tailwindcss": "^2.0.2"
+    },
+    "scripts": {
+        "development": "npx tailwindcss build -o main.css",
+        "production": "NODE_ENV=production npx tailwindcss build -o main.css"
+    }
+}
