@@ -1,6 +1,6 @@
 {    
     "dependencies": {
-        "tailwindcss": "^2.0.2"
+        "tailwindcss": "^2.2.19"
     },
     "scripts": {
         "development": "npx tailwindcss build -o main.css",
